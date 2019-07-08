@@ -8,9 +8,10 @@ The user can:
 * View blogposts they like
 * See the latests posts
 * Subscribe to latest post service
-* Generate quotes
+* Generate quotes from various historic people e.g martin king luther jnr.
+
 ## Setup/Installation Requirements
-### Prerequisites
+
 * python3.6
 * pip
 * Virtual environment(virtualenv)
