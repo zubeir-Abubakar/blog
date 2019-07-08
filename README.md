@@ -8,6 +8,7 @@ The user can:
 * View blogposts they like
 * See the latests posts
 * Subscribe to latest post service
+* Generate quotes
 ## Setup/Installation Requirements
 ### Prerequisites
 * python3.6
