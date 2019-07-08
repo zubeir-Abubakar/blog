@@ -35,7 +35,7 @@ The user can:
           $ python3.6 -m pip install Flask-Bootstrap
           $ python3.6 -m pip install Flask-Script
           $ python3.6 -m pip install -r requirements.txt
-          $ python3.6
+          $ python3.6 -m pip install flask-login
 
 * Run the application:
 
