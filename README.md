@@ -17,9 +17,10 @@ The user can:
 * Virtual environment(virtualenv)
 
 ### Cloning and running
+
 * Clone the application using git clone(this copies the app onto your device). In terminal:
 
-          $ git clone https://github.com/Vohsty/kimBlog.git
+          $ git clone https://github.com/zubeir-Abubakar/blog.git
           $ cd blog
 
 * Creating the virtual environment
