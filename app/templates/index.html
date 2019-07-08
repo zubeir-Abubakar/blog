@@ -1,0 +1,117 @@
+<style>
+  .jumbotron{
+    background: brown;
+  }
+  al,
+  li {
+    display: inline;
+    list-style: none;
+    font-size: large;
+    margin: 15px;
+    }
+
+  li al {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    display: inline;
+
+
+  }
+
+  li al:hover {
+    color: darkolivegreen;
+
+  }
+  blockquote{
+    background: darkgreen;
+    color: azure;
+    border-radius: 50px;
+  }
+    body {
+      background-image: url(https://content.thriveglobal.com/wp-content/uploads/2019/03/Passion1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
+<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Charm|Kaushan+Script" rel="stylesheet">
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+
+{% block styles%}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    
+    <h1> Welcome to Zubeyr the bloger</h1>
+    <p> Welcome to my blog.My name is Zubeyr Abubakar currently a student at Moringa School taking software development.
+    </p>
+    <p> I am passionate about code and for this reason I created this platform where you could add a blog category about
+      open source quotes ,get to add a blog and people could also comment.</p>
+    <p> Also this is part of my assignment </p><br>
+    <!-- Footer -->
+    <footer class="page-footer" style="background-color:gray; border-radius:50px; top: 0;">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center ">
+
+        <!-- Grid row -->
+        <div class="row" style="padding-top: 0px; margin-left: 50px; ">
+
+          <div class="col-md-4 mb-md-4 mb-0"></div>
+
+        </div>
+
+        <!-- <hr class="clearfix w-100 d-md-none pb-3">  -->
+
+        <!-- Grid column -->
+        <div style="font-display: initial; margin: 10px;">
+
+
+          <li><al href="https://www.facebook.com/messages/t/100010664955097"> <i class="fa fa-facebook-square"></i></al>
+          </li>
+          <li><al href="https://www.github.com/zubeir-Abubakar"> <i class="fa fa-github" aria-hidden="true"></i></al></li>
+          <li><al href="https://www.plus.google.com/112456656782400260720"> <i class="fa fa-twitter-square"
+                aria-hidden="true"></i></al></li>
+          <li><al href="https://moringaschool.slack.com/team/UGZR3KD26"> <i class="fa fa-slack"
+                aria-hidden="true"></i></al></li>
+          <li><al href="https://www.instagram.com/western_heykal_525"> <i class="fa fa-instagram"
+                aria-hidden="true"></i></al></li>
+
+
+
+
+        </div>
+
+      </div>
+      </footer>
+      <div class="container" style="font-family: 'Indie Flower', cursive;" style="text-align: center;">
+        <div class="row">
+          <h4 class="text-left"><a class="btn btn-success" href="/add/category"> Add a blog Category </a></h4>
+
+          <div class="jumbotron">{{ macro.displayCategoryList(categories) }}</div>
+
+        </div>
+      </div>
+
+
+  
+
+  </footer>
+
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+{% endblock %}

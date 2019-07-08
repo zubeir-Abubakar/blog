@@ -1,0 +1,48 @@
+<style>
+  body {
+    background-image: url(https://content.thriveglobal.com/wp-content/uploads/2019/03/Passion1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+{% extends 'base.html' %}
+ {% import 'macros.html' as macro%}
+
+{%block styles%}
+  {{ super() }}
+{%endblock%}
+
+<!-- content block -->
+{% block content %}
+<div class="container">
+     <div class="col-md-12">
+        <p class="text-left"><a class="btn btn-primary" href="{{url_for('.new_blog',id=blogs.category_id)}}">Post Blog</a></p>
+        <div class="well" style="background-color:aquamarine">
+          <h3>{{blogs.content}}</h3>
+        </div>
+
+<!--end of content block-->
+
+<!-- comments block -->
+        <div class="col-md-6 col-offset-1">
+          <table>
+            <tr>
+              <td><h4 class="text-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Comments   <a class="btn btn-primary" href="{{url_for('.post_comment',id=blogs.id)}}"> Add your comment</a></h4></td>
+            </tr>
+             
+            
+          </table>
+
+         {% if comment %}
+         {{ macro.displaySpecificBlogs(comment)}}
+         <hr>
+         {%else%}
+         <h3 class="text-center" style="color:greenyellow;">No comments </h3>
+         {% endif %}
+        </div>
+
+    </div>
+  </div>
+<!--end of comments block-->
+
+{% endblock %}
