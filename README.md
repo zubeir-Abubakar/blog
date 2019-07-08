@@ -55,10 +55,10 @@ The user can:
 | :---------------- | :---------------: | :------------------ |
 | Display latest blogs | On page load | List of various blogs I have written |
 | Registration | Submit regitration form | User creates an account and receives welcome email |
-| Subscription | Submit subscription form| User receives email eb=very time there is a new post|
+
 | Edit posts(writer) | Submit edit post | The post is updated with new data from user |
-| Delete posts(writer) | Click delete post | Post is deleted |
-| Delete comments(writer) | Click delete comment | Comment is deleted |
+| new Quotes| Click new quotes | takes to anoter page with random quotes |
+| Adding comments | Click create comment | Comment is ceated|
 
 ## Support and contact details
 For any questions, troubleshooting or contributions,  find me on:
