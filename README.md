@@ -66,4 +66,4 @@ For any questions, troubleshooting or contributions,  find me on:
 * Email: zubkayare@gmail.com
 ### License
 MIT License
-Copyright (c) {2019} **Steve Kimanthi**
+Copyright (c) {2019} **Zubeyr Abubakar**
