@@ -62,8 +62,8 @@ The user can:
 
 ## Support and contact details
 For any questions, troubleshooting or contributions,  find me on:
-* Mobile: +254710998712
-* Email: vohsty@gmail.com
+* Mobile: +254743046778
+* Email: zubkayare@gmail.com
 ### License
 MIT License
 Copyright (c) {2019} **Steve Kimanthi**
